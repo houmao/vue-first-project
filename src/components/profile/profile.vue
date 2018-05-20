@@ -40,7 +40,7 @@
             </section>
             <section class="profile-1reTe">
                 <!-- 我的地址 -->
-                <router-link to='/order' class="myorder">
+                <router-link to='/main' class="myorder">
                     <img src="../../assets/mine/position.png" alt="我的地址">
                     <div class="myorder-div">
                         <span>我的地址</span>
@@ -62,7 +62,7 @@
                     </div>
                 </a>
                 <!-- 饿了么会员卡 -->
-                <router-link to='/vipcard' class="myorder">
+                <router-link to='/main' class="myorder">
                     <img src="../../assets/mine/share.png" alt="分享领5元现金">
                     <div class="myorder-div">
                         <span>分享领5元现金</span>
@@ -74,7 +74,7 @@
             </section>
             <section class="profile-1reTe">
                 <!-- 服务中心 -->
-                <router-link to='/service' class="myorder">
+                <router-link to='/main' class="myorder">
                     <img src="../../assets/mine/customer.png" alt="我的客服">
                     <div class="myorder-div">
                         <span>我的客服</span>
