@@ -411,7 +411,7 @@ export const deleteAddress = (userId, addressid) => fetch('/v1/users/' + userId 
 export const accountLogin = (username, password, captchaCode) => fetch('/v2/login', {
     username,
     password,
-    captchaCode
+    captcha_code: captchaCode
 }, 'POST');
 
 /**
