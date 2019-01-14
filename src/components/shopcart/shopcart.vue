@@ -25,7 +25,7 @@
                     v-on:enter="enter"
                     v-on:after-enter="afterEnter"
                 >
-                    <div class="ball" v-for="(ball, index) in balls" :key="index" v-show="ball.show">
+                    <div class="ball" v-for="(ball) in balls" :key="ball" v-show="ball.show">
                         <div class="inner inner-hook"></div>
                     </div>
                 </transition-group>
